@@ -1,7 +1,7 @@
-# 📌 FizzBuzzXCTest
+# 📌 FizzBuzzGame
 
 ## 🎯 Sobre o Projeto
-O **FizzBuzzXCTest** foi criado para auxiliar os alunos da **Apple Developer Academy - UFPE** a terem um projeto de base para entender **testes automatizados** em Swift. Ele implementa o clássico jogo do **FizzBuzz**, mas com um foco especial na **testabilidade do código**.
+O **FizzBuzzGame** foi criado para auxiliar os alunos da **Apple Developer Academy - UFPE** a terem um projeto de base para entender **testes automatizados** em Swift. Ele implementa o clássico jogo do **FizzBuzz**, mas com um foco especial na **testabilidade do código**.
 
 Aqui, você encontrará exemplos de **testes unitários** e **testes de interface (UI Tests)** usando **XCTest** e **Swift Testing**.
 
@@ -40,7 +40,6 @@ No projeto, testamos:
 - Se a tela inicial carrega corretamente
 - Se os botões respondem ao toque
 - Se o jogo termina corretamente ao perder todas as vidas
-- Se o botão "Play Again" reinicia o jogo corretamente
 
 Os UITests são essenciais porque ajudam a detectar problemas que podem passar despercebidos nos testes unitários, como erros na interface ou interações incorretas.
 
