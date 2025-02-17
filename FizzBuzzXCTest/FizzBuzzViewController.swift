@@ -49,6 +49,7 @@ class FizzBuzzViewController: UIViewController {
         livesLabel.font = UIFont.systemFont(ofSize: 32, weight: .semibold)
         livesLabel.textAlignment = .center
         livesLabel.translatesAutoresizingMaskIntoConstraints = false
+        livesLabel.accessibilityIdentifier = "livesLabel"
         view.addSubview(livesLabel)
         
         numberButton = createButton(.number)
