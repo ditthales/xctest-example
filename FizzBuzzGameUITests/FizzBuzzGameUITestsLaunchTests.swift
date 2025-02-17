@@ -7,7 +7,7 @@
 
 import XCTest
 
-final class FizzBuzzXCTestUITestsLaunchTests: XCTestCase {
+final class FizzBuzzGameUITestsLaunchTests: XCTestCase {
 
 //    override class var runsForEachTargetApplicationUIConfiguration: Bool {
 //        true

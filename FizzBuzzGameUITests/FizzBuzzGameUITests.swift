@@ -7,7 +7,7 @@
 
 import XCTest
 
-final class FizzBuzzXCTestUITests: XCTestCase {
+final class FizzBuzzGameUITests: XCTestCase {
     
     let app = XCUIApplication()
     
