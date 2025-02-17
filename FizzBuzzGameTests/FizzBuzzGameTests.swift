@@ -9,7 +9,7 @@
 import XCTest
 
 
-final class GameTests: XCTestCase {
+final class FizzBuzzGameTests: XCTestCase {
     
     var brainSpy: BrainSpy!
     var game: Game!
