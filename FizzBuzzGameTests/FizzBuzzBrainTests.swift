@@ -5,7 +5,7 @@
 //  Created by ditthales on 05/02/25.
 //
 
-@testable import FizzBuzzXCTest
+@testable import FizzBuzzGame
 import XCTest
 
 final class FizzBuzzBrainTests: XCTestCase {

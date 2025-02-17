@@ -16,9 +16,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "47AD8D552D526F7000FD75FA"
-               BuildableName = "FizzBuzzXCTest.app"
-               BlueprintName = "FizzBuzzXCTest"
-               ReferencedContainer = "container:FizzBuzzXCTest.xcodeproj">
+               BuildableName = "FizzBuzzGame.app"
+               BlueprintName = "FizzBuzzGame"
+               ReferencedContainer = "container:FizzBuzzGame.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -36,9 +36,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "47AD8D6B2D526F7300FD75FA"
-               BuildableName = "FizzBuzzXCTestTests.xctest"
-               BlueprintName = "FizzBuzzXCTestTests"
-               ReferencedContainer = "container:FizzBuzzXCTest.xcodeproj">
+               BuildableName = "FizzBuzzGameTests.xctest"
+               BlueprintName = "FizzBuzzGameTests"
+               ReferencedContainer = "container:FizzBuzzGame.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -47,9 +47,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "47AD8D752D526F7300FD75FA"
-               BuildableName = "FizzBuzzXCTestUITests.xctest"
-               BlueprintName = "FizzBuzzXCTestUITests"
-               ReferencedContainer = "container:FizzBuzzXCTest.xcodeproj">
+               BuildableName = "FizzBuzzGameUITests.xctest"
+               BlueprintName = "FizzBuzzGameUITests"
+               ReferencedContainer = "container:FizzBuzzGame.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -69,9 +69,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "47AD8D552D526F7000FD75FA"
-            BuildableName = "FizzBuzzXCTest.app"
-            BlueprintName = "FizzBuzzXCTest"
-            ReferencedContainer = "container:FizzBuzzXCTest.xcodeproj">
+            BuildableName = "FizzBuzzGame.app"
+            BlueprintName = "FizzBuzzGame"
+            ReferencedContainer = "container:FizzBuzzGame.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -86,9 +86,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "47AD8D552D526F7000FD75FA"
-            BuildableName = "FizzBuzzXCTest.app"
-            BlueprintName = "FizzBuzzXCTest"
-            ReferencedContainer = "container:FizzBuzzXCTest.xcodeproj">
+            BuildableName = "FizzBuzzGame.app"
+            BlueprintName = "FizzBuzzGame"
+            ReferencedContainer = "container:FizzBuzzGame.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
