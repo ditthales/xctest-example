@@ -6,7 +6,7 @@
 //
 
 import XCTest
-@testable import FizzBuzzXCTest
+@testable import FizzBuzzGame
 
 final class FizzBuzzViewModelTests: XCTestCase {
 

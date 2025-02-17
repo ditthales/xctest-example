@@ -24,58 +24,58 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		47AD8D562D526F7000FD75FA /* FizzBuzzXCTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FizzBuzzXCTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		47AD8D6C2D526F7300FD75FA /* FizzBuzzXCTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FizzBuzzXCTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		47AD8D762D526F7300FD75FA /* FizzBuzzXCTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FizzBuzzXCTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		47AD8D562D526F7000FD75FA /* FizzBuzzGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FizzBuzzGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		47AD8D6C2D526F7300FD75FA /* FizzBuzzGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FizzBuzzGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		47AD8D762D526F7300FD75FA /* FizzBuzzGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FizzBuzzGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		47AD8D7E2D526F7300FD75FA /* Exceptions for "FizzBuzzXCTest" folder in "FizzBuzzXCTest" target */ = {
+		47AD8D7E2D526F7300FD75FA /* Exceptions for "FizzBuzzGame" folder in "FizzBuzzGame" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = 47AD8D552D526F7000FD75FA /* FizzBuzzXCTest */;
+			target = 47AD8D552D526F7000FD75FA /* FizzBuzzGame */;
 		};
-		47AD8DC22D564E3100FD75FA /* Exceptions for "FizzBuzzXCTestTests" folder in "FizzBuzzXCTest" target */ = {
+		47AD8DC22D564E3100FD75FA /* Exceptions for "FizzBuzzGameTests" folder in "FizzBuzzGame" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				TestDoubles/BrainSpy.swift,
 				TestDoubles/GameSpy.swift,
 			);
-			target = 47AD8D552D526F7000FD75FA /* FizzBuzzXCTest */;
+			target = 47AD8D552D526F7000FD75FA /* FizzBuzzGame */;
 		};
-		47AD8DC32D564E3100FD75FA /* Exceptions for "FizzBuzzXCTestTests" folder in "FizzBuzzXCTestTests" target */ = {
+		47AD8DC32D564E3100FD75FA /* Exceptions for "FizzBuzzGameTests" folder in "FizzBuzzGameTests" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				TestDoubles/BrainSpy.swift,
 				TestDoubles/GameSpy.swift,
 			);
-			target = 47AD8D6B2D526F7300FD75FA /* FizzBuzzXCTestTests */;
+			target = 47AD8D6B2D526F7300FD75FA /* FizzBuzzGameTests */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		47AD8D582D526F7000FD75FA /* FizzBuzzXCTest */ = {
+		47AD8D582D526F7000FD75FA /* FizzBuzzGame */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				47AD8D7E2D526F7300FD75FA /* Exceptions for "FizzBuzzXCTest" folder in "FizzBuzzXCTest" target */,
+				47AD8D7E2D526F7300FD75FA /* Exceptions for "FizzBuzzGame" folder in "FizzBuzzGame" target */,
 			);
-			path = FizzBuzzXCTest;
+			path = FizzBuzzGame;
 			sourceTree = "<group>";
 		};
-		47AD8D6F2D526F7300FD75FA /* FizzBuzzXCTestTests */ = {
+		47AD8D6F2D526F7300FD75FA /* FizzBuzzGameTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				47AD8DC22D564E3100FD75FA /* Exceptions for "FizzBuzzXCTestTests" folder in "FizzBuzzXCTest" target */,
-				47AD8DC32D564E3100FD75FA /* Exceptions for "FizzBuzzXCTestTests" folder in "FizzBuzzXCTestTests" target */,
+				47AD8DC22D564E3100FD75FA /* Exceptions for "FizzBuzzGameTests" folder in "FizzBuzzGame" target */,
+				47AD8DC32D564E3100FD75FA /* Exceptions for "FizzBuzzGameTests" folder in "FizzBuzzGameTests" target */,
 			);
-			path = FizzBuzzXCTestTests;
+			path = FizzBuzzGameTests;
 			sourceTree = "<group>";
 		};
-		47AD8D792D526F7300FD75FA /* FizzBuzzXCTestUITests */ = {
+		47AD8D792D526F7300FD75FA /* FizzBuzzGameUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = FizzBuzzXCTestUITests;
+			path = FizzBuzzGameUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -108,9 +108,9 @@
 		47AD8D4D2D526F7000FD75FA = {
 			isa = PBXGroup;
 			children = (
-				47AD8D582D526F7000FD75FA /* FizzBuzzXCTest */,
-				47AD8D6F2D526F7300FD75FA /* FizzBuzzXCTestTests */,
-				47AD8D792D526F7300FD75FA /* FizzBuzzXCTestUITests */,
+				47AD8D582D526F7000FD75FA /* FizzBuzzGame */,
+				47AD8D6F2D526F7300FD75FA /* FizzBuzzGameTests */,
+				47AD8D792D526F7300FD75FA /* FizzBuzzGameUITests */,
 				47AD8D572D526F7000FD75FA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -118,9 +118,9 @@
 		47AD8D572D526F7000FD75FA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				47AD8D562D526F7000FD75FA /* FizzBuzzXCTest.app */,
-				47AD8D6C2D526F7300FD75FA /* FizzBuzzXCTestTests.xctest */,
-				47AD8D762D526F7300FD75FA /* FizzBuzzXCTestUITests.xctest */,
+				47AD8D562D526F7000FD75FA /* FizzBuzzGame.app */,
+				47AD8D6C2D526F7300FD75FA /* FizzBuzzGameTests.xctest */,
+				47AD8D762D526F7300FD75FA /* FizzBuzzGameUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -128,9 +128,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		47AD8D552D526F7000FD75FA /* FizzBuzzXCTest */ = {
+		47AD8D552D526F7000FD75FA /* FizzBuzzGame */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 47AD8D7F2D526F7300FD75FA /* Build configuration list for PBXNativeTarget "FizzBuzzXCTest" */;
+			buildConfigurationList = 47AD8D7F2D526F7300FD75FA /* Build configuration list for PBXNativeTarget "FizzBuzzGame" */;
 			buildPhases = (
 				47AD8D522D526F7000FD75FA /* Sources */,
 				47AD8D532D526F7000FD75FA /* Frameworks */,
@@ -141,18 +141,18 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				47AD8D582D526F7000FD75FA /* FizzBuzzXCTest */,
+				47AD8D582D526F7000FD75FA /* FizzBuzzGame */,
 			);
-			name = FizzBuzzXCTest;
+			name = FizzBuzzGame;
 			packageProductDependencies = (
 			);
 			productName = FizzBuzzXCTest;
-			productReference = 47AD8D562D526F7000FD75FA /* FizzBuzzXCTest.app */;
+			productReference = 47AD8D562D526F7000FD75FA /* FizzBuzzGame.app */;
 			productType = "com.apple.product-type.application";
 		};
-		47AD8D6B2D526F7300FD75FA /* FizzBuzzXCTestTests */ = {
+		47AD8D6B2D526F7300FD75FA /* FizzBuzzGameTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 47AD8D842D526F7300FD75FA /* Build configuration list for PBXNativeTarget "FizzBuzzXCTestTests" */;
+			buildConfigurationList = 47AD8D842D526F7300FD75FA /* Build configuration list for PBXNativeTarget "FizzBuzzGameTests" */;
 			buildPhases = (
 				47AD8D682D526F7300FD75FA /* Sources */,
 				47AD8D692D526F7300FD75FA /* Frameworks */,
@@ -164,18 +164,18 @@
 				47AD8D6E2D526F7300FD75FA /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				47AD8D6F2D526F7300FD75FA /* FizzBuzzXCTestTests */,
+				47AD8D6F2D526F7300FD75FA /* FizzBuzzGameTests */,
 			);
-			name = FizzBuzzXCTestTests;
+			name = FizzBuzzGameTests;
 			packageProductDependencies = (
 			);
 			productName = FizzBuzzXCTestTests;
-			productReference = 47AD8D6C2D526F7300FD75FA /* FizzBuzzXCTestTests.xctest */;
+			productReference = 47AD8D6C2D526F7300FD75FA /* FizzBuzzGameTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		47AD8D752D526F7300FD75FA /* FizzBuzzXCTestUITests */ = {
+		47AD8D752D526F7300FD75FA /* FizzBuzzGameUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 47AD8D872D526F7300FD75FA /* Build configuration list for PBXNativeTarget "FizzBuzzXCTestUITests" */;
+			buildConfigurationList = 47AD8D872D526F7300FD75FA /* Build configuration list for PBXNativeTarget "FizzBuzzGameUITests" */;
 			buildPhases = (
 				47AD8D722D526F7300FD75FA /* Sources */,
 				47AD8D732D526F7300FD75FA /* Frameworks */,
@@ -187,13 +187,13 @@
 				47AD8D782D526F7300FD75FA /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				47AD8D792D526F7300FD75FA /* FizzBuzzXCTestUITests */,
+				47AD8D792D526F7300FD75FA /* FizzBuzzGameUITests */,
 			);
-			name = FizzBuzzXCTestUITests;
+			name = FizzBuzzGameUITests;
 			packageProductDependencies = (
 			);
 			productName = FizzBuzzXCTestUITests;
-			productReference = 47AD8D762D526F7300FD75FA /* FizzBuzzXCTestUITests.xctest */;
+			productReference = 47AD8D762D526F7300FD75FA /* FizzBuzzGameUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -219,7 +219,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 47AD8D512D526F7000FD75FA /* Build configuration list for PBXProject "FizzBuzzXCTest" */;
+			buildConfigurationList = 47AD8D512D526F7000FD75FA /* Build configuration list for PBXProject "FizzBuzzGame" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -233,9 +233,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				47AD8D552D526F7000FD75FA /* FizzBuzzXCTest */,
-				47AD8D6B2D526F7300FD75FA /* FizzBuzzXCTestTests */,
-				47AD8D752D526F7300FD75FA /* FizzBuzzXCTestUITests */,
+				47AD8D552D526F7000FD75FA /* FizzBuzzGame */,
+				47AD8D6B2D526F7300FD75FA /* FizzBuzzGameTests */,
+				47AD8D752D526F7300FD75FA /* FizzBuzzGameUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -291,12 +291,12 @@
 /* Begin PBXTargetDependency section */
 		47AD8D6E2D526F7300FD75FA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 47AD8D552D526F7000FD75FA /* FizzBuzzXCTest */;
+			target = 47AD8D552D526F7000FD75FA /* FizzBuzzGame */;
 			targetProxy = 47AD8D6D2D526F7300FD75FA /* PBXContainerItemProxy */;
 		};
 		47AD8D782D526F7300FD75FA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 47AD8D552D526F7000FD75FA /* FizzBuzzXCTest */;
+			target = 47AD8D552D526F7000FD75FA /* FizzBuzzGame */;
 			targetProxy = 47AD8D772D526F7300FD75FA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -311,7 +311,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5M8NVJZA75;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = FizzBuzzXCTest/Info.plist;
+				INFOPLIST_FILE = FizzBuzzGame/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -339,7 +339,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5M8NVJZA75;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = FizzBuzzXCTest/Info.plist;
+				INFOPLIST_FILE = FizzBuzzGame/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -492,7 +492,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FizzBuzzXCTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FizzBuzzXCTest";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FizzBuzzGame.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FizzBuzzGame";
 			};
 			name = Debug;
 		};
@@ -511,7 +511,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FizzBuzzXCTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FizzBuzzXCTest";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FizzBuzzGame.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FizzBuzzGame";
 			};
 			name = Release;
 		};
@@ -529,7 +529,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = FizzBuzzXCTest;
+				TEST_TARGET_NAME = FizzBuzzGame;
 			};
 			name = Debug;
 		};
@@ -547,14 +547,14 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = FizzBuzzXCTest;
+				TEST_TARGET_NAME = FizzBuzzGame;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		47AD8D512D526F7000FD75FA /* Build configuration list for PBXProject "FizzBuzzXCTest" */ = {
+		47AD8D512D526F7000FD75FA /* Build configuration list for PBXProject "FizzBuzzGame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				47AD8D822D526F7300FD75FA /* Debug */,
@@ -563,7 +563,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		47AD8D7F2D526F7300FD75FA /* Build configuration list for PBXNativeTarget "FizzBuzzXCTest" */ = {
+		47AD8D7F2D526F7300FD75FA /* Build configuration list for PBXNativeTarget "FizzBuzzGame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				47AD8D802D526F7300FD75FA /* Debug */,
@@ -572,7 +572,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		47AD8D842D526F7300FD75FA /* Build configuration list for PBXNativeTarget "FizzBuzzXCTestTests" */ = {
+		47AD8D842D526F7300FD75FA /* Build configuration list for PBXNativeTarget "FizzBuzzGameTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				47AD8D852D526F7300FD75FA /* Debug */,
@@ -581,7 +581,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		47AD8D872D526F7300FD75FA /* Build configuration list for PBXNativeTarget "FizzBuzzXCTestUITests" */ = {
+		47AD8D872D526F7300FD75FA /* Build configuration list for PBXNativeTarget "FizzBuzzGameUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				47AD8D882D526F7300FD75FA /* Debug */,
