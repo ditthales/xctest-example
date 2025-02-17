@@ -6,7 +6,7 @@ O **FizzBuzzGame** foi criado para auxiliar os alunos da **Apple Developer Acade
 Aqui, você encontrará exemplos de **testes unitários** e **testes de interface (UI Tests)** usando **XCTest** e **Swift Testing**.
 
 ## 🛠 Tecnologias Utilizadas
-- **Swift**
+- **UIKit**
 - **XCTest** (para testes unitários e de UI)
 - **Swift Testing** (nova abordagem de testes unitários)
 
