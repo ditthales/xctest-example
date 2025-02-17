@@ -52,14 +52,17 @@ struct GameTests {
     
     // testes se o init da classe está conforme o esperado
     
+    @Test
     func gameStartsAtOne(){
         #expect(game.score == 1)
     }
     
+    @Test
     func gameStartsWithMoreThanOneTotalLive() {
         #expect(game.totalLives >= 1)
     }
     
+    @Test
     func testIfGameStartsWithTotalLivesEqualToRemainingLives() {
         #expect(game.totalLives == game.remainingLives)
     }
@@ -67,6 +70,7 @@ struct GameTests {
     
 
     // teste se o brain.correctMove está sendo chamado
+    @Test
     func testPlayRoundIsCallingCorrectMove() {
         let scoreCalled = game.score
         
@@ -77,7 +81,8 @@ struct GameTests {
         #expect(brainSpy.isCorrectMoveCalled)
         #expect(brainSpy.numberCalledOnCorrectMove == scoreCalled)
     }
-
+    
+    @Test
     func testIfIsMoveCorrecReturnsTrueWhenExpected() {
         brainSpy.correctMoveReturnedMove = .fizz
         
@@ -86,6 +91,7 @@ struct GameTests {
         #expect(result)
     }
     
+    @Test
     func testIfIsMoveCorrecReturnsFalseWhenExpected() {
         brainSpy.correctMoveReturnedMove = .number
         
@@ -96,6 +102,7 @@ struct GameTests {
     
     
     // testar se vidas restantes subtrai 1
+    @Test
     func testPlayRoundIsCalledWithWrongMove() {
         // given correctMove returns different move than provided
         brainSpy.correctMoveReturnedMove = .number
@@ -115,6 +122,7 @@ struct GameTests {
     
     
     // testar se movimento correto
+    @Test
     func testPlayRoundIsCalledWithRightMove() {
         brainSpy.correctMoveReturnedMove = .fizz
         
@@ -141,16 +149,19 @@ struct ViewModelTests {
         viewModel = FizzBuzzViewModel(game: gameSpy)
     }
     
+    @Test
     func testIfBeginsWithLives() {
         #expect(viewModel.initialLives > 0)
     }
     
+    @Test
     func testIfBeginsWithPlayingState() {
         let expectedState: FizzBuzzViewModel.State = .playing
         
         #expect(viewModel.state == expectedState)
     }
     
+    @Test
     func testIfStateIsPlayingWhenHasLives() {
         gameSpy.remainingLives = 1
         
@@ -159,6 +170,7 @@ struct ViewModelTests {
         #expect(viewModel.state == expectedState)
     }
     
+    @Test
     func testIfStateChangesToGameOverWhenNoLives() {
         gameSpy.remainingLives = 0
         
@@ -168,6 +180,7 @@ struct ViewModelTests {
         
     }
     
+    @Test
     func testIfPlayButtonIsCallingPlayRound() {
         viewModel.playButton(move: .fizz)
         
@@ -176,6 +189,7 @@ struct ViewModelTests {
     }
     
 
+    @Test
     func testIfUpdateInfoFromModelWorks() {
         viewModel.gameScore = 1
         viewModel.initialLives = 5
@@ -199,6 +213,7 @@ struct ViewModelTests {
         
     }
     
+    @Test
     func testIfNumberPressedWillIncreaseScoreWhenExpected() {
         gameSpy.expectedCorrectMove = .number
         let currentScore = viewModel.gameScore
@@ -210,6 +225,7 @@ struct ViewModelTests {
         
     }
     
+    @Test
     func testIfChampagnePressedWillIncreaseScoreWhenExpected() {
         gameSpy.expectedCorrectMove = .fizz
         let currentScore = viewModel.gameScore
@@ -221,6 +237,7 @@ struct ViewModelTests {
         
     }
     
+    @Test
     func testIfLightningPressedWillIncreaseScoreWhenExpected() {
         gameSpy.expectedCorrectMove = .buzz
         let currentScore = viewModel.gameScore
@@ -232,6 +249,7 @@ struct ViewModelTests {
         
     }
     
+    @Test
     func testIfSpacePressedWillIncreaseScoreWhenExpected() {
         gameSpy.expectedCorrectMove = .fizzBuzz
         let currentScore = viewModel.gameScore
@@ -244,6 +262,7 @@ struct ViewModelTests {
     }
     
     
+    @Test
     func testIfPlayAgainResetsGame() {
         gameSpy.expectedCorrectMove = .number
         let expectedScore = viewModel.gameScore
@@ -255,6 +274,7 @@ struct ViewModelTests {
     }
     
     
+    @Test
     func testIfViewModelWillChangeState() {
         gameSpy.remainingLives = 1
         gameSpy.expectedCorrectMove = .fizz
@@ -264,6 +284,7 @@ struct ViewModelTests {
         #expect(viewModel.state == .gameOver)
     }
     
+    @Test
     func testIfBackgroundViewWillChangeOnWrongMove() {
         gameSpy.expectedCorrectMove = .fizzBuzz
         let currentBackground = viewModel.colorBackground
@@ -274,6 +295,7 @@ struct ViewModelTests {
         
     }
     
+    @Test
     func TestIfBackgroundWontChangeOnRightMove() {
         gameSpy.expectedCorrectMove = .buzz
         let expectedBackground = viewModel.colorBackground
@@ -284,6 +306,7 @@ struct ViewModelTests {
         
     }
     
+    @Test
     func testIfBackgroundWillChangeOnGameOver() {
         let currentBackground = viewModel.colorBackground
         gameSpy.remainingLives = 1
@@ -297,6 +320,7 @@ struct ViewModelTests {
         
     }
     
+    @Test
     func testIfBackgroundWillChangeOnPlayAgain() {
         let failBg = "Fail-Background"
         viewModel.colorBackground = failBg
