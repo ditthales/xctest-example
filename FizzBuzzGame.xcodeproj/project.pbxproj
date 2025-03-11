@@ -37,22 +37,6 @@
 			);
 			target = 47AD8D552D526F7000FD75FA /* FizzBuzzGame */;
 		};
-		47AD8DC22D564E3100FD75FA /* Exceptions for "FizzBuzzGameTests" folder in "FizzBuzzGame" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				TestDoubles/BrainSpy.swift,
-				TestDoubles/GameSpy.swift,
-			);
-			target = 47AD8D552D526F7000FD75FA /* FizzBuzzGame */;
-		};
-		47AD8DC32D564E3100FD75FA /* Exceptions for "FizzBuzzGameTests" folder in "FizzBuzzGameTests" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				TestDoubles/BrainSpy.swift,
-				TestDoubles/GameSpy.swift,
-			);
-			target = 47AD8D6B2D526F7300FD75FA /* FizzBuzzGameTests */;
-		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -66,10 +50,6 @@
 		};
 		47AD8D6F2D526F7300FD75FA /* FizzBuzzGameTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				47AD8DC22D564E3100FD75FA /* Exceptions for "FizzBuzzGameTests" folder in "FizzBuzzGame" target */,
-				47AD8DC32D564E3100FD75FA /* Exceptions for "FizzBuzzGameTests" folder in "FizzBuzzGameTests" target */,
-			);
 			path = FizzBuzzGameTests;
 			sourceTree = "<group>";
 		};

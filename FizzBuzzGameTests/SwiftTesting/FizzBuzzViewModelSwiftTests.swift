@@ -1,5 +1,5 @@
 //
-//  FizzBuzzViewModelTests.swift
+//  FizzBuzzViewModelSwiftTests.swift
 //  FizzBuzzGameTests
 //
 //  Created by ditthales on 17/02/25.
