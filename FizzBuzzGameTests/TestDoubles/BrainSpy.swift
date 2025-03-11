@@ -6,6 +6,7 @@
 //
 
 import Foundation
+@testable import FizzBuzzGame
 
 class BrainSpy: BrainProtocol {
     
