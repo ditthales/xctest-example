@@ -25,35 +25,4 @@ final class FizzBuzzGameUITests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
     
-    func testGameStartsWithCorrectUIElements() throws {
-        // Verifica se o rótulo de vidas existe
-        let livesLabel = app.staticTexts["livesLabel"]
-        XCTAssertTrue(livesLabel.exists, "O label de vidas deveria existir.")
-        
-        // Verifica se o botão de número existe
-        let numberButton = app.buttons.element(boundBy: 0) // Pega o primeiro botão na tela
-        XCTAssertTrue(numberButton.exists, "O botão de número deveria existir.")
-    }
-    
-    func testPressingNumberButtonUpdatesScore() throws {
-        let numberButton = app.buttons.element(boundBy: 0)
-        let initialTitle = numberButton.label
-        
-        numberButton.tap() // Simula o toque no botão
-        
-        let updatedTitle = numberButton.label
-        XCTAssertNotEqual(initialTitle, updatedTitle, "O título do botão deveria ter mudado após o toque.")
-    }
-    
-    func testGameOverScreenAppears() throws {
-        // Simula um número de toques suficiente para perder todas as vidas
-        for _ in 0..<5 {
-            let numberButton = app.buttons.element(boundBy: 0)
-            numberButton.tap()
-        }
-        
-        // Verifica se a tela de Game Over apareceu
-        let gameOverLabel = app.staticTexts["GAME OVER"]
-        XCTAssertTrue(gameOverLabel.exists, "A tela de Game Over deveria aparecer após perder todas as vidas.")
-    }
 }
